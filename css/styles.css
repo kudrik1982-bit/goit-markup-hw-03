@@ -17,7 +17,7 @@ padding: 0;
 
 
 
-h1, h2, h3, h4, h5, h6 p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -172,9 +172,12 @@ padding-bottom: 188px;
   
   display: block;
   margin: 0 auto ;
+  border: none;
+  
    background:  #4d5ae5;
   color: #fff; 
-  width: 169px;
+  padding-left:  32px;
+  padding-right: 32px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -190,16 +193,20 @@ padding-bottom: 188px;
 }
 .button:hover,
 .button:focus {
+  
 
   background-color: #404bbf ;
 }
+ .features-one {
+  padding-top: 120px;
+  padding-bottom: 120px;
 
+ }
 
 .features-list {
 display: flex;
 gap: 24px;
-padding-top: 120px;
-padding-bottom: 120px;
+
 
 }
 .features-item {
@@ -221,7 +228,7 @@ padding-bottom: 120px;
 }
 
 .portfolio {
-  margin: 72px;
+  
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -230,8 +237,8 @@ padding-bottom: 120px;
     color: #2e2f42;
 }
 .team {
-  margin: 72px;
-font-weight: 700;
+  margin-bottom: 72px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -254,46 +261,40 @@ font-weight: 700;
 .my-card {
 display: flex;
 gap: 24px;
+padding-bottom: 120px;
 
 }
 .card {
-
+  border-radius: 0 0 4px 4px;
   width: calc((100% - 24px * 3) / 4);
 
   background: #fff;
 }
 .work-card {
-  padding: 120px;
-  
-
-  background: #f4f4fd;
+  padding-top: 120px;
+   background: #f4f4fd;
 }
 
 .our-portfolio {
-  padding: 120px;
+  padding-top: 120px;
   
  }
  .portfolio-item {
   
- 
- 
-  
- 
-  
-
-  width: calc ((100% - 24px * 2) / 3);
+  width: calc((100% - 24px * 2) / 3);
    
-  
- }
+}
 
  .info {
-display: flex;
-flex-wrap: wrap;
-gap: 48px 24px;
+  margin-top: 72px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 
  }
 .merits {
-    margin: 8px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -311,7 +312,8 @@ gap: 48px 24px;
 
 .page-footer {
 
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #2e2f42;
 
 }
@@ -324,7 +326,7 @@ max-width: 264px;
 
 .working {
    
-padding: 16px 32px;
+padding: 32px 16px;
 
 border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -352,6 +354,6 @@ margin-top: 8px;
 }
 
 .name {
-padding: 16px 32px;
+padding: 32px 16px;
 
 }
